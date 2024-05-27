@@ -14,7 +14,7 @@ The Systems Controller doesn't necessarily have all the IO needed by modern, adv
 The ESP32-S3 IO Expander serves the same role as the RP2040 IO Expander, but allows access to the wireless world of Bluetooth and Wi-Fi.
 
 ### Gicar 8.5.04 IO Expander
-Because this project started out on Lelit Machines, there is a special place in it's heart for Gicar 8.5.04 controllers, allowing those controllers to be used as IO Expanders too.
+Because this project started out on Lelit Machines, there is a special place in it's heart for stock Gicar 8.5.04 controllers, allowing those controllers to be used as IO Expanders too.
 
 ### HID Controller (and ESP32-S3 IO Expander)
 The HID controller presents a user interface. This might be a display with buttons and knobs, it might be an app or website communicating over Wi-fi or Bluetooth, it might be something completely different. The HID Controller is an ESP32-S3.
@@ -60,7 +60,7 @@ In this configuration, you'd use the Open LCC Main Board to replace the stock LC
 * Gicar 8.5.04 - Gicar 8.5.04 IO Expander
 
 #### Lelit Bianca with a gear pump
-In this configuration, you'd still replace the stock LCC with an Open LCC Main Board, but you'd also replace the Gicar 8.5.04 with an All-Purpose Espresso Controller. Because the Open LCC Main Board has a settings flash and an SD Card reader, the recommended configuration is as follows:
+In this configuration, you'd still replace the stock LCC with an Open LCC Main Board, but you'd also replace the Gicar 8.5.04 with an All-Purpose Espresso Controller. The recommended configuration is the following, but other configurations are possible.
 
 * Open LCC Main Board RP2040 - Systems Controller
 * Open LCC Main Board ESP32-S3 - HID Controller
