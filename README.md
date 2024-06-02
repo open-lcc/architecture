@@ -2,7 +2,7 @@
 
 ## Microcontroller roles
 
-When using Open LCC, there's usually more than one microcontroller involved. The microcontrollers serve different roles, and they communicate with eachother to serve these roles.
+When using any Variegated Coffee board there's usually more than one microcontroller involved. The microcontrollers serve different roles, and they communicate with eachother to serve these roles.
 
 ### Systems Controller
 The systems controller handles the grunt work. Running PID algorithms, refilling boilers when low, PWM:ing gear pumps, all of that stuff. The systems controller is an RP2040. It communicates with the HID Controller and the IO Expander via UARTs.
